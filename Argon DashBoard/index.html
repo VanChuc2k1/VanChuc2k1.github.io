@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ======== Boxicons ======= -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ======== Swiper Js ======= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.0/swiper-bundle.min.css" />
+    <!-- ======== Bootstrap ======= -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- ======== Fontawesome ======= -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Argon Dashboard PRO - Premium Bootstrap 4 Admin Template</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+</head>
+<body>
+    <div class="sidebar close">
+        <div class="logo_content">
+            <div class="logo-image">
+                <img src="./images/blue.png">
+            </div>
+            <i class="fas fa-bars" id="btn"></i>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <div class="icon-links">
+                    <a href="#">
+                        <i class="fas fa-store store"></i> 
+                        <span class="links_name">Dashboard</span>
+                    </a>
+                    <i class="fas fa-angle-right arrow"></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Alternative</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="icon-links">
+                    <a href="#">
+                        <i class="far fa-clone"></i>
+                        <span class="links_name">Examples</span>
+                    </a>
+                    <i class="fas fa-angle-right arrow"></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Lock</a></li>
+                    <li><a href="#">Timeline</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">RTL Support</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="icon-links">
+                    <a href="#">
+                        <i class='bx bxs-server' id="bxs-server"></i>
+                        <span class="links_name">Components</span>
+                    </a>
+                    <i class="fas fa-angle-right arrow"></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a href="#">Buttons</a></li>
+                    <li><a href="#">Cards</a></li>
+                    <li><a href="#">Grid</a></li>
+                    <li><a href="#">Notifications</a></li>
+                    <li><a href="#">Icons</a></li>
+                    <li><a href="#">Typography</a></li>
+                    <li><a href="#">Multi level</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="icon-links">
+                    <a href="#">
+                        <i class="fas fa-bring-forward"></i>
+                        <span class="links_name">Forms</span>
+                    </a>
+                    <i class="fas fa-angle-right arrow"></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a href="#">Elements</a></li>
+                    <li><a href="#">Components</a></li>
+                    <li><a href="#">Validation</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="icon-links">
+                    <a href="#">
+                        <i class="far fa-align-left"></i>
+                        <span class="links_name">Tables</span>
+                    </a>
+                    <i class="fas fa-angle-right arrow"></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a href="#">Tables</a></li>
+                    <li><a href="#">Sortable</a></li>
+                    <li><a href="#">Datatatable</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="icon-links">
+                    <a href="#">
+                        <i class="fas fa-map"></i>
+                        <span class="links_name">Maps</span>
+                    </a>
+                    <i class="fas fa-angle-right arrow"></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a href="#">Google</a></li>
+                    <li><a href="#">Vector</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-archive'></i>
+                    <span class="links_name">Widgets</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-pie-chart-alt-2' id="Charts"></i>
+                    <span class="links_name">Charts</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="far fa-calendar-alt"></i>
+                    <span class="links_name">Calendar</span>
+                </a>
+            </li>
+            <hr width="85%" style="margin: 0 auto;">
+            <div class="small-name">
+                <div class="name">DOCUMENTATION</div>
+                <p>D</p>
+            </div>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-rocket icon' id="icons"></i>
+                    <span class="links_name">Getting started</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-palette icon" id="icons"></i>
+                    <span class="links_name">Foundation</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-server icon' id="icons"></i>
+                    <span class="links_name">Widgets</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-pie-chart-alt-2 icon' id="icons"></i>
+                    <span class="links_name">Charts</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <header>
+            <div class="search-wrapper">
+                <span class="las la-search">
+                    <i class="far fa-search"></i>
+                    <input type="search" placeholder="Search"/>
+                </span>
+            </div>
+            <i class="far fa-search-plus"></i>
+            <div class="user-wrapper">
+                <i class="fas fa-bars" id="btn"></i>
+                <i class="fas fa-bell"></i>
+                <i class="far fa-clone"></i>
+                <img src="./images/team-4.jpg" width="40px" height="40px">
+                <div>
+                    <h4>John Snow</h4>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="DEFAULT">
+                <div class="Default">
+                    <div class="details">
+                        <h2>Default</h2>
+                        <h4><i class="fas fa-home"></i> - Dashboard - <span>Default</span></h4>
+                    </div>
+                    <div class="btns">
+                        <a href="#" class="btn">New</a>
+                        <a href="#" class="btn">Filters</a>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-single">
+                        <div>
+                            <h6>TOTAL TRAFFIC</h6>
+                            <h5>350,897</h5>
+                            <span><i class="far fa-arrow-up">3.48%</i> Since last month</span>
+                        </div>
+                        <div>
+                            <span class="las la-users">
+                                <i class="fas fa-hand-pointer"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card-single">
+                        <div>
+                            <h6>NEW USERS</h6>
+                            <h5>2,356</h5>
+                            <span><i class="far fa-arrow-up">3.48%</i> Since last month</span>
+                        </div>
+                        <div>
+                            <span class="las la-users">
+                                <span><i class='bx bxs-pie-chart-alt-2 icon'></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card-single">
+                        <div>
+                            <h6>SALES</h6>
+                            <h5>928</h5>
+                            <span><i class="far fa-arrow-up">3.48%</i> Since last month</span>
+                        </div>
+                        <div>
+                            <span class="las la-users">
+                                <i class="fas fa-coins"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card-single">
+                        <div>
+                            <h6>PERFORMANCE</h6>
+                            <h5>49.65%</h5>
+                            <span><i class="far fa-arrow-up">3.48%</i> Since last month</span>
+                        </div>
+                        <div>
+                            <span class="las la-users">
+                                <i class='bx bxs-bar-chart-alt-2'></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Page content -->
+            <div class="canvas">
+                <div class="canvas-chart1">
+                    <div class="canvas-chart1-header">
+                        <div>
+                            <span style="color: rgb(133, 126, 126);">OVERVIEW</span><br>
+                            <h5 style="color: white;">Sales value</h5>
+                        </div>
+                        <div>
+                            <a href="#" class="month-btn" id="btn">Month</a>
+                            <a href="#" class="week-btn">Week</a>
+                        </div>
+                    </div>
+                    <div class="canvas-chart1-body">
+                        <canvas id="myChart" style="width:100%;height: 340px;"></canvas>
+                    </div>
+                </div>
+                <div class="canvas-chart2">
+                    <div class="canvas-chart2-header">
+                        <span style="color: rgb(133, 126, 126);">PERFORMANCE</span><br>
+                        <h5 style="color: rgb(32, 31, 31);">Total orders</h5>                       
+                    </div>
+                    <div class="canvas-chart2-body">
+                        <canvas id="myChart4" style="width:100%;height: 340px;"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="Team-list-track">
+                <div class="status">
+                    <div class="team-header">
+                        <span>Team  members</span>
+                    </div>
+                    <div class="card-bodys">
+                        <div class="Team-adds">
+                            <div class="add1">
+                                <img src="./images/team-1.jpg">
+                                <div>
+                                    <span class="name">John Michael</span><br>
+                                    <i class="fas fa-circle color-green"></i> Online
+                                </div>
+                            </div>
+                            <div class="ADD">
+                                <a href="#" class="btn Add">Add</a>
+                            </div>
+                        </div>
+                        <div class="Team-adds">
+                            <div class="add1">
+                                <img src="./images/team-2.jpg">
+                                <div>
+                                    <span class="name">Alex Smith</span><br>
+                                    <i class="fas fa-circle color-orange"></i> In a meeting
+                                </div>
+                                
+                            </div>
+                            <div class="ADD">
+                                <a href="#" class="btn Add">Add</a>
+                            </div>
+                        </div>
+                        <div class="Team-adds">
+                            <div class="add1">
+                                <img src="./images/team-3.jpg">
+                                <div>
+                                    <span class="name">Samantha lvy</span><br>
+                                    <i class="fas fa-circle color-red"></i> Offline
+                                </div>
+                            </div>
+                            <div class="ADD">
+                                <a href="#" class="btn Add">Add</a>
+                            </div>
+                        </div>
+                        <div class="Team-adds">
+                            <div class="add1">
+                                <img src="./images/team-4.jpg">
+                                <div>
+                                    <span class="name">John Michael</span><br>
+                                    <i class="fas fa-circle color-green"></i> Online
+                                </div>
+                                
+                            </div>
+                            <div class="ADD">
+                                <a href="#" class="btn Add">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="status">
+                    <div class="team-header">
+                        <span>To do list</span>
+                    </div>
+                    <div class="card-bodys">
+                        <div class="Team-adds">
+                            <div class="add1" id="add">
+                                <h2 class="green">|</h2>
+                                <span>Call with Dave<br><small>10:30 AM</small></span>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" class="checkbox">
+                            </div>
+                        </div>
+                        <div class="Team-adds">
+                            <div class="add1" id="add">
+                                <h2 class="orange">|</h2>
+                                <span>Lunch meeting<br><small>10:30 AM</small></span>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" class="checkbox-orange">
+                            </div>
+                        </div>
+                        <div class="Team-adds">
+                            <div class="add1" id="add">
+                                <h2 class="blue">|</h2>
+                                <span>Argon Dashboard Launch<br><small>10:30 AM</small></span>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" class="checkbox-blue">
+                            </div>
+                        </div>
+                        <div class="Team-adds">
+                            <div class="add1" id="add">
+                                <h2 class="red">|</h2>
+                                <span>Winter Hackaton<br><small>10:30 AM</small></span>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" class="checkbox-red">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="status">
+                    <div class="team-header">
+                        <span>Progress track</span>
+                    </div>
+                    <div class="card-bodys">
+                        <div class="Team-adds">
+                            <div class="add1">
+                                <img src="./images/bootstrap.jpg" width="50" height="50">
+                            </div>
+                            <div class="skill11">
+                                <span>Argon Design System</span>
+                                <div class="skill1">
+                                    <div class="skills orange-skill"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Team-adds">
+                            <div class="add1">
+                                <img src="./images/angular.jpg" width="50" height="50">
+                            </div>
+                            <div class="skill11">
+                                <span>Angular Now UI Kit PRO</span>
+                                <div class="skill1">
+                                    <div class="skills green-skill"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Team-adds">
+                            <div class="add1">
+                                <img src="./images/sketch.jpg" width="50" height="50">
+                            </div>
+                            <div class="skill11">
+                                <span>Black Dashboard</span>
+                                <div class="skill1">
+                                    <div class="skills red-skill"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Team-adds">
+                            <div class="add1">
+                                <img src="./images/react.jpg" width="50" height="50">
+                            </div>
+                            <div class="skill11">
+                                <span>React Material Dashboard</span>
+                                <div class="skill1">
+                                    <div class="skills blue-skill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="table">
+                <div class="recent-grid">
+                    <div class="team-header">
+                        <span>Activity feed</span>
+                    </div>
+                    <div class="card-bodys">
+                        <div class="body-team">
+                            <div class="body-team-image" style="display: flex;">
+                                <img src="./images/team-1.jpg" width="50" height="50">
+                                <div class="body-team-name">
+                                    <span>John Snow</span><br><p>3 days ago</p>
+                                </div>  
+                            </div>
+                            <div class="btns">
+                                <a href="#" class="Add">+ Follow</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p>
+                            Personal profiles are the perfect way for you to grab their
+                            attention and persuade recruiters to continue reading your CV because you're telling 
+                            them from  the off exactly why they should hire you.
+                        </p>
+                        <img src="images/img-1-1000x600.jpg" width="100%" height="220">
+                        <div class="Interactive">
+                            <div>
+                                <i class="fas fa-thumbs-up"> </i> 150
+                                <i class="fas fa-comment"></i> 36
+                                <i class="fas fa-share"></i> 12
+                            </div>
+                            <div class="small-image">
+                                <img src="./images/team-5.jpg" width="20" height="20" class="small-image1">
+                                <img src="./images/team-4.jpg" width="20" height="20" class="small-image2">
+                                <img src="./images/team-3.jpg" width="20" height="20" class="small-image3">
+                            </div>
+                            <p>and 30+ more</p>
+                        </div>
+                        <div class="Comments">
+                            <div class="comment1">
+                                <img src="./images/team-5.jpg" width="50" height="50" class="team-5">
+                                <div class="comment">
+                                    <h6>Michael Lewis</h6>
+                                    <span>
+                                        Cras sit amet nibh libero nulla vel metus scelerisque ante sollicitudin.
+                                        Cras purus odio vestibulum in vulputate viverra turpis.
+                                    </span><br>
+                                    <i class="fas fa-thumbs-up"> </i> 3 likes
+                                    <i class="fas fa-share"></i> 2 share
+                                </div>
+                            </div>
+                            <div class="comment2">
+                                <img src="./images/team-2.jpg" width="50" height="50" class="team-1">
+                                <div class="comment">
+                                    <h6>Jessica Stones</h6>
+                                    <span>
+                                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                                        Cras purus odio vestibulum in vulputate viverra turpis.
+                                    </span><br>
+                                    <i class="fas fa-thumbs-up"> </i> 10 likes
+                                    <i class="fas fa-share"></i> 1 share
+                                </div>
+                            </div>
+                        </div>
+                        <div class="COMMENT">
+                            <img src="./images/team-3.jpg" width="50" height="50">
+                            <textarea name="" id="" cols="40" placeholder="Write you comment" rows="1" style="border-radius: 5px;"></textarea>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="customers">
+                    <div class="Project">
+                        <div class="projects">
+                            <div class="card">
+                                <div class="cart-body">
+                                    <table style="width:100%">
+                                        <thead>
+                                            <th class="light-table" colspan="5">Light table</th>
+                                            <tr class="headers">
+                                                <td>PROJECT <i class="fas fa-sort"></i></td>
+                                                <td>BUDGET <i class="fas fa-sort"></i></td>
+                                                <td>STATUS <i class="fas fa-sort"></i></td>
+                                                <td>USERS <i class="fas fa-sort"></i></td>
+                                                <td>COMPLETION <i class="fas fa-sort"></i><span></span></td>
+                                            </tr>
+                                            <tr class="cart-p">
+                                                <td>
+                                                    <img src="./images/bootstrap.jpg" width="50" height="50">
+                                                    <span>Argon Design System</span>
+                                                </td>
+                                                <td>$2500 USD</td>
+                                                <td><i class="fas fa-circle color-orange"></i> pending</td>
+                                                <td class="parent">
+                                                    <img src="./images/team-5.jpg" width="30" height="30" class="images1">
+                                                    <img src="./images/team-4.jpg" width="30" height="30" class="images2">
+                                                    <img src="./images/team-3.jpg" width="30" height="30" class="images3">
+                                                    <img src="./images/team-2.jpg" width="30" height="30" class="images4">
+                                                </td>
+                                                <td class="Completion">
+                                                    <div class="percent">
+                                                        <span>60%</span>
+                                                    </div>
+                                                    <div class="skill1">
+                                                        <div class="skills orange-skill"></div>
+                                                    </div>
+                                                    <div><i class="far fa-ellipsis-v"></i></div>
+                                                </td>
+                                            </tr>
+                                            <tr class="cart-p">
+                                                <td>
+                                                    <img src="./images/angular.jpg" width="50" height="50">
+                                                    <span>Angular Now UI Kit PRO</span>
+                                                </td>
+                                                <td>$1800 USD</td>
+                                                <td><i class="fas fa-circle color-green"></i> completed</td>
+                                                <td class="parent">
+                                                    <img src="./images/team-5.jpg" width="30" height="30" class="images1">
+                                                    <img src="./images/team-4.jpg" width="30" height="30" class="images2">
+                                                    <img src="./images/team-3.jpg" width="30" height="30" class="images3">
+                                                    <img src="./images/team-2.jpg" width="30" height="30" class="images4">
+                                                </td>
+                                                <td class="Completion">
+                                                    <div class="percent">
+                                                        <span>100%</span>
+                                                    </div>
+                                                    <div class="skill1">
+                                                        <div class="skills green-skill"></div>
+                                                    </div>
+                                                    <div><i class="far fa-ellipsis-v"></i></div>
+                                                </td>
+                                            </tr>
+                                            <tr class="cart-p">
+                                                <td>
+                                                    <img src="./images/sketch.jpg" width="50" height="50">
+                                                    <span>Black Dashboard</span>
+                                                </td>
+                                                <td>$3150 USD</td>
+                                                <td><i class="fas fa-circle color-red"></i> delayed</td>
+                                                <td class="parent">
+                                                    <img src="./images/team-5.jpg" width="30" height="30" class="images1">
+                                                    <img src="./images/team-4.jpg" width="30" height="30" class="images2">
+                                                    <img src="./images/team-3.jpg" width="30" height="30" class="images3">
+                                                    <img src="./images/team-2.jpg" width="30" height="30" class="images4">
+                                                </td>
+                                                <td class="Completion">
+                                                    <div class="percent">
+                                                        <span>72%</span>
+                                                    </div>
+                                                    <div class="skill1">
+                                                        <div class="skills red-skill"></div>
+                                                    </div>
+                                                    <div><i class="far fa-ellipsis-v"></i></div>
+                                                </td>
+                                            </tr>
+                                            <tr class="cart-p">
+                                                <td>
+                                                    <img src="./images/react.jpg" width="50" height="50">
+                                                    <span>React Material Dashboard</span>
+                                                </td>
+                                                <td>$4400 USD</td>
+                                                <td><i class="fas fa-circle color-blue"></i> on schedule</td>
+                                                <td class="parent" >
+                                                    <img src="./images/team-5.jpg" width="30" height="30" class="images1">
+                                                    <img src="./images/team-4.jpg" width="30" height="30" class="images2">
+                                                    <img src="./images/team-3.jpg" width="30" height="30" class="images3">
+                                                    <img src="./images/team-2.jpg" width="30" height="30" class="images4">
+                                                </td>
+                                                <td class="Completion">
+                                                    <div class="percent">
+                                                        <span>90%</span>
+                                                    </div>
+                                                    <div class="skill1">
+                                                        <div class="skills blue-skill"></div>
+                                                    </div>
+                                                    <div><i class="far fa-ellipsis-v"></i></div>
+                                                </td>
+                                            </tr>
+                                            <tr class="cart-p">
+                                                <td>
+                                                    <img src="./images/vue.jpg" width="50" height="50">
+                                                    <span>Vue Now UI Kit PRO</span>
+                                                </td>
+                                                <td>$2200 USD</td>
+                                                <td><i class="fas fa-circle color-green"></i> completed</td>
+                                                <td class="parent">
+                                                    <img src="./images/team-5.jpg" width="30" height="30" class="images1">
+                                                    <img src="./images/team-4.jpg" width="30" height="30" class="images2">
+                                                    <img src="./images/team-3.jpg" width="30" height="30" class="images3">
+                                                    <img src="./images/team-2.jpg" width="30" height="30" class="images4">
+                                                </td>
+                                                <td class="Completion">
+                                                    <div class="percent">
+                                                        <span>100%</span>
+                                                    </div>
+                                                    <div class="skill1">
+                                                        <div class="skills green-skill"></div>
+                                                    </div>
+                                                    <div><i class="far fa-ellipsis-v"></i></div>
+                                                </td>
+                                            </tr>
+                                            <tr class="cart-p">
+                                                <td>
+                                                    <img src="./images/bootstrap.jpg" width="50" height="50">
+                                                    <span>Argon Design System</span>
+                                                </td>
+                                                <td>$2500 USD</td>
+                                                <td><i class="fas fa-circle color-orange"></i> pending</td>
+                                                <td class="parent">
+                                                    <img src="./images/team-5.jpg" width="30" height="30" class="images1">
+                                                    <img src="./images/team-4.jpg" width="30" height="30" class="images2">
+                                                    <img src="./images/team-3.jpg" width="30" height="30" class="images3">
+                                                    <img src="./images/team-2.jpg" width="30" height="30" class="images4">
+                                                </td>
+                                                <td class="Completion">
+                                                    <div class="percent">
+                                                        <span>60%</span>
+                                                    </div>
+                                                    <div class="skill1">
+                                                        <div class="skills orange-skill"></div>
+                                                    </div>
+                                                    <div><i class="far fa-ellipsis-v"></i></div>
+                                                </td>
+                                            </tr>
+                                            <tr class="cart-p">
+                                                <td>
+                                                    <img src="./images/angular.jpg" width="50" height="50">
+                                                    <span>Angular Now UI Kit PRO</span>
+                                                </td>
+                                                <td>$1800 USD</td>
+                                                <td><i class="fas fa-circle color-green"></i> completed</td>
+                                                <td class="parent">
+                                                    <img src="./images/team-5.jpg" width="30" height="30" class="images1">
+                                                    <img src="./images/team-4.jpg" width="30" height="30" class="images2">
+                                                    <img src="./images/team-3.jpg" width="30" height="30" class="images3">
+                                                    <img src="./images/team-2.jpg" width="30" height="30" class="images4">
+                                                </td>
+                                                <td class="Completion">
+                                                    <div class="percent">
+                                                        <span>100%</span>
+                                                    </div>
+                                                    <div class="skill1">
+                                                        <div class="skills green-skill"></div>
+                                                    </div>
+                                                    <div><i class="far fa-ellipsis-v"></i></div>
+                                                </td>
+                                            </tr>
+                                            <tr class="cart-p">
+                                                <td>
+                                                    <img src="./images/sketch.jpg" width="50" height="50">
+                                                    <span>Black Dashboard</span>
+                                                </td>
+                                                <td>$3150 USD</td>
+                                                <td><i class="fas fa-circle color-red"></i> delayed</td>
+                                                <td class="parent">
+                                                    <img src="./images/team-5.jpg" width="30" height="30" class="images1">
+                                                    <img src="./images/team-4.jpg" width="30" height="30" class="images2">
+                                                    <img src="./images/team-3.jpg" width="30" height="30" class="images3">
+                                                    <img src="./images/team-2.jpg" width="30" height="30" class="images4">
+                                                </td>
+                                                <td class="Completion">
+                                                    <div class="percent">
+                                                        <span>72%</span>
+                                                    </div>
+                                                    <div class="skill1">
+                                                        <div class="skills red-skill"></div>
+                                                    </div>
+                                                    <div><i class="far fa-ellipsis-v"></i></div>
+                                                </td>
+                                            </tr>
+                                            <tr class="cart-p">
+                                                <td>
+                                                    <img src="./images/angular.jpg" width="50" height="50">
+                                                    <span>Angular Now UI Kit PRO</span>
+                                                </td>
+                                                <td>$1800 USD</td>
+                                                <td><i class="fas fa-circle color-green"></i> completed</td>
+                                                <td class="parent">
+                                                    <img src="./images/team-5.jpg" width="30" height="30" class="images1">
+                                                    <img src="./images/team-4.jpg" width="30" height="30" class="images2">
+                                                    <img src="./images/team-3.jpg" width="30" height="30" class="images3">
+                                                    <img src="./images/team-2.jpg" width="30" height="30" class="images4">
+                                                </td>
+                                                <td class="Completion">
+                                                    <div class="percent">
+                                                        <span>100%</span>
+                                                    </div>
+                                                    <div class="skill1">
+                                                        <div class="skills green-skill"></div>
+                                                    </div>
+                                                    <div>
+                                                        <i class="far fa-ellipsis-v"></i>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-deck">
+                        <div class="gradient-default">
+                            <h5>$ 3,300</h5>
+                            <span>Your current balance</span><br>
+                            <small><span>+ 15%</span> ($250)</small><br>
+                            <div class="btn-add-credit">
+                                <a href="#" class="Add-credit">Add credit</a>
+                            </div>
+                            <div class="orders-seals">
+                                <div class="Orders">
+                                    <span>Orders:60%</span>
+                                    <div class="Order">
+                                        <div class="skills greens-skill"></div>
+                                    </div>
+                                </div>
+                                <div class="Seals">
+                                    <span>Sales:40%</span>
+                                    <div class="Seal">
+                                        <div class="skills oranges-skill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gradient-danger">
+                            <div class="gradient-danger-header">
+                                <img src="./images/bitcoin.png">
+                                <a href="#" class="active">ACTIVE</a>
+                            </div>
+                            <div class="gradient-danger-username">
+                                <span>USERNAME</span>
+                                <h3>@Johnsnow</h3>
+                            </div>
+                            <div class="gradient-danger-name">
+                                <span>NAME</span>
+                                <h5>John Snow</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="table-reponsive">
+                <div class="table-right">
+                    <div class="table-header">
+                        <div><th class="light-table" colspan="5">Page vistis</th></div>
+                        <div><a href="#" class="btn-see-all">See all</a></div>
+                    </div>
+                    <table style="width:100%">
+                        <thead style="width:100%">
+                            <tr class="headers">
+                                <td class="headers-td">PAGE NAME</td>
+                                <td>VISITORS</td>
+                                <td>UNIQUE USERS</td>
+                                <td colspan="2">BOUNCE RATE</td>
+                            </tr>
+                            <tr class="table-body">
+                                <td>/argon/</td>
+                                <td>4,569</td>
+                                <td>340</td>
+                                <td><i class="far fa-arrow-up color-green"></i> 46,53%</td>
+                            </tr>
+                            <tr class="table-body">
+                                <td>/argon/index.html</td>
+                                <td>3,985</td>
+                                <td>319</td>
+                                <td><i class="far fa-arrow-up color-orange"></i> 46,53%</td>
+                            </tr>
+                            <tr class="table-body">
+                                <td>/argon/charts.html</td>
+                                <td>3,513</td>
+                                <td>294</td>
+                                <td><i class="far fa-arrow-down color-orange"></i> 36.49%</td>
+                            </tr>
+                            <tr class="table-body">
+                                <td>/argon/tables.html</td>
+                                <td>2,050</td>
+                                <td>147</td>
+                                <td><i class="far fa-arrow-up color-green"></i> 50,87%</td>
+                            </tr>
+                            <tr class="table-body">
+                                <td>/argon/</td>
+                                <td>1,795</td>
+                                <td>190</td>
+                                <td><i class="far fa-arrow-down color-red"></i> 46,53%</td>
+                            </tr>                                                                                                                            
+                        </thead>
+                    </table>
+                </div>
+                <div class="table-left">
+                    <div class="Tables">
+                        <div class="table-header">
+                            <div><th class="light-table" colspan="5">Page vistis</th></div>
+                            <div><a href="#" class="btn-see-all">See all</a></div>
+                        </div>
+                        <table style="width:100%">
+                            <thead>
+                                <tr class="headers">
+                                    <td class="headers-td">REFERRAL</td>
+                                    <td colspan="4">VISITORS</td>
+                                </tr>
+                                <tr class="table-body">
+                                    <td>Facebook</td>
+                                    <td>1,480</td>
+                                    <td class="Completion">
+                                        <div class="percent">
+                                            <span>60%</span>
+                                        </div>
+                                        <div class="skill1">
+                                            <div class="skills red-amount"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="table-body">
+                                    <td>Facebook</td>
+                                    <td>5,480</td>
+                                    <td class="Completion">
+                                        <div class="percent">
+                                            <span>70%</span>
+                                        </div>
+                                        <div class="skill1">
+                                            <div class="skills green-amount"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="table-body">
+                                    <td>Google</td>
+                                    <td>4,807</td>
+                                    <td class="Completion">
+                                        <div class="percent">
+                                            <span>80%</span>
+                                        </div>
+                                        <div class="skill1">
+                                            <div class="skills violet-amount"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="table-body">
+                                    <td>Instagram</td>
+                                    <td>3,678</td>
+                                    <td class="Completion">
+                                        <div class="percent">
+                                            <span>75%</span>
+                                        </div>
+                                        <div class="skill1">
+                                            <div class="skills blue-amount"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="table-body">
+                                    <td>Twitter</td>
+                                    <td>2,645</td>
+                                    <td class="Completion">
+                                        <div class="percent">
+                                            <span>30%</span>
+                                        </div>
+                                        <div class="skill1">
+                                            <div class="skills orange-amount"></div>
+                                        </div>
+                                    </td>
+                                </tr>                                                                                                                           
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-l">
+                    <p>&copy; 2021<span style="color: blueviolet;font-weight: 600;"> Creative Tim</span></p>
+                </div> 
+                <div class="footer-menu">
+                    <span>Creative Tim</span>
+                    <span>About Us</span>
+                    <span>Blog</span>
+                    <span>License</span>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- ======== SwiperJS ======= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.0/swiper-bundle.min.js"></script>
+    <!-- ======== SCROLL REVEAL ======= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <!-- ======== IndexJS ======= -->
+    <script src="./JS/index.js"></script>
+    <!-- ======== Bar-ChartJS ======= -->
+    <script src="./JS/Bar-Chart.js"></script>
+    <!-- ======== Line-ChartJS ======= -->
+    <script src="./JS/Line-Chart.js"></script>
+</body>
+</html>
