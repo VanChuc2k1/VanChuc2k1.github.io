@@ -1,0 +1,127 @@
+
+    .lessons-watched{
+        width: 1032px;
+        margin: 0 auto;
+        .lessons-watched-header-heading{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 38px;
+            line-height: 56px;
+            color: $black-text;
+        }
+        .btn-see-more{
+            display: flex;
+            align-items: center;
+            .see-more{
+                color: $pink-orange;
+                font-size: 18px;
+                font-weight: 500;
+            }
+            .fa-angle-right{
+                font-size: 18px;
+                color: $pink-orange;
+                font-weight: 500;
+                margin-left: 10px;
+            }
+        }
+        .btn-see-mores{
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            text-align: right;
+            .see-more{
+                color: $pink-orange;
+                font-size: 18px;
+                font-weight: 500;
+            }
+            .fa-angle-right{
+                font-size: 18px;
+                color: $pink-orange;
+                font-weight: 500;
+                margin-left: 10px;
+            }
+        }
+        .lessons-watched-item{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+            border-radius: 10px;
+            width:316px;
+            padding: 7px;
+            &-image{
+                width: 100%;
+            }
+            &-heading{
+                font-size: 24px;
+                display: block;
+                font-weight: 500;
+                color: $black-text;
+            }
+            &-content{
+                img{
+                    margin-right: 5px;
+                }
+                .item-content{
+                    color: $white;
+                    font-size: 12px;
+                    font-weight: 500;
+                    background: linear-gradient(90deg, rgba(227, 32, 104, 0.5) 2.44%, rgba(245, 0, 59, 0.5) 100%);
+                    border-radius: 5px;
+                    margin-bottom: 5px;
+                    padding: 5px 7px;
+                    display: block;
+                    width: 54%;
+                }
+                .item-contents{
+                    color: $white;
+                    font-size: 12px;
+                    font-weight: 500;
+                    background: linear-gradient(90deg, rgba(227, 32, 104, 0.5) 2.44%, rgba(245, 0, 59, 0.5) 100%);
+                    border-radius: 5px;
+                    margin-bottom: 5px;
+                    padding: 5px 7px;
+                    display: block;
+                    width: 42%;
+                }
+            }
+            &-icon{
+                padding: 5px 0;
+                margin-top: -15px;
+                &-calendar,&-user,&-star{
+                    grid-gap: 0 5px;
+                }
+                .fa-star{
+                    color: $red-pink;
+                }
+                .stars{
+                    color: $light-pink;
+                }
+            }
+            .btn-cart{
+                border: 1px solid $pink-orange;
+                padding: 7px 13px;
+                border-radius: 7px;
+                box-sizing: border-box;
+                color: $pink-orange;
+                font-weight: 500;
+                margin-bottom: 5px;
+                img{
+                    margin-right: 5px;
+                }
+            }
+            .byding-btn{
+                background: linear-gradient(135deg, #E32068 0%, #F5003B 100%);
+                border: 1px solid #F9003B;
+                box-sizing: border-box;
+                border-radius: 7px;
+                color: $white;
+                font-weight: 500;
+                padding: 7px 40px;
+                margin-top: 10px;
+            }
+            .price{
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+    }
