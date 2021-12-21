@@ -1,0 +1,72 @@
+.menu-link:hover{
+    color: $secondary_color;
+    transition: all 0.3s ease-in-out;
+  }
+  .btn-primary:hover{
+    color: $secondary_color;
+    background-color: $white;
+    transition: all 0.3s ease-in-out;
+  }
+  .btn-white:hover{
+    color: $white;
+    background-color: $secondary_color;
+    transition: all 0.3s ease-in-out;
+  }
+  .btn--primary:hover{
+    color: $secondary_color;
+    background-color: $white;
+    transition: all 0.3s ease-in-out;
+  }
+  .header-actions-watch:hover{
+      color: $secondary_color;
+      transition: all 0.3s ease-in-out;
+  }
+  .btn--outline:hover{
+    background-color: $blue;
+    transition: all 0.5s ease-in-out;
+    border: none;
+  }
+  .btn--student:hover{
+      background-color: rgba(28, 213, 213, 0.734);
+      transition: all 0.5s ease-in-out;
+  }
+  .youcan-more:hover{
+    color: $secondary_color;
+    transition: all 0.5s ease-in-out;
+  }
+  .btn-feature{
+
+    .see-more-feature:hover{
+      color: white;
+      background-color: $secondary_color;
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  .btn-integrations:hover{
+    color: white;
+    background-color: $secondary_color;
+    transition: all 0.5s ease-in-out;
+  }
+  .testimonal-content-btn:hover {
+    background-color: $secondary_color;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid $white;
+    color: $white;
+    .btn-testimonal:hover{
+      color: white;
+      transition: all 0.5s ease-in-out;
+    }
+    .testimonal-content-arrow:hover{
+      color: white;
+      transition: all 0.5s ease-in-out;
+      border: 1px solid $white;
+    }
+  }
+  .btn-subscribe:hover{
+    background: linear-gradient(to left,#5359E6,#393FCF);
+    transition: all 0.5s ease-in-out;
+  }
+  .btn-read-more:hover{
+    color: $secondary_color;
+    transition: all 0.5s ease-in-out;
+  }

@@ -1,0 +1,103 @@
+.lastest{
+    width: 85%;
+    margin: 0px auto;
+    &-header{
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    &-list{
+        display: flex;
+        grid-gap:0px 40px;
+        .lastest-news{
+            padding: 0px 50px 0px 0px;
+            position: relative;
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+        
+        .news-heading{
+            font-size: 22px;
+            color: black;
+            font-weight: 500;
+        }
+        &-news{
+            width: 100%;
+            &-item{
+                display: flex;
+                grid-template-columns: 1fr 1fr;
+                grid-gap:0px 0px;
+                margin-bottom: 30px;
+                width: 100%;
+            }
+            &-img{
+                width: 75%;
+                img{
+                    width: 100%;
+                    position: relative;
+                }
+            }
+            &-content{
+                width: 100%;
+                padding:10px 20px;
+                .news-img-heading{
+                    font-size: 18px;
+                    line-height: 1.8;
+                    font-weight: 500;
+                    color: black;
+                }
+                .news-img-text{
+                    font-size: 16px;
+                    line-height: 1.8;
+                }
+            }
+        }
+    }
+    .btn-news{
+        font-size: 14px;
+        padding: 5px 30px;
+        background-color: #F4C467;
+        margin-top: 40px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: 550;
+        color: black;
+        border: none;
+    }
+    .news-text{
+        font-size: 16px;
+        line-height: 1.8;
+        color: $gray;
+
+    }
+    .btn-read-more{
+        color: $gray;
+    }
+    .btn-news-img{
+        font-size: 14px;
+        padding: 5px 10px;
+        background-color: #F4C467;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: 500;
+        color: black;
+        border: none;
+        margin-top: 120px;
+        margin-left: -150px;
+        position: absolute;
+    }
+    .btn-news-imgs{
+        font-size: 14px;
+        padding: 5px 10px;
+        background-color: #F4C467;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: 500;
+        color: black;
+        border: none;
+        margin-top: 120px;
+        margin-left: -80px;
+        position: absolute;
+    }
+}
