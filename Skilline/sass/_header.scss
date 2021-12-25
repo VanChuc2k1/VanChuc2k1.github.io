@@ -4,8 +4,8 @@ body {
     line-height: 1;
     color: #696984;
     font-family: Poppins;
-    text-decoration: none;
-    list-style-type: none;
+    padding: 0;
+    margin: 0;
   }
   @keyframes fadeIn{
     from {
@@ -31,6 +31,7 @@ body {
   }
   .overlay{
     position: fixed;
+    width: 100%;
     top: 0;
     left: 0;
     bottom: 0;
@@ -44,19 +45,28 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
-    height: 50%;
-    width: 100%;
-    max-height: 100%;
-    background: #fff;
-    transform: translateY(-100%);
+    bottom: 0;
+    height: 100%;
+    width: 60%;
+    max-width: 1520px;
+    background:#ffffff;
+    transform: translateX(-100%);
     z-index: 10000;
-    clip-path: ellipse(100% 100% at top);
     transition: transform linear 0.5s, opacity linear 0.5s;
     opacity: 0;
+    .header-mobile-top{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      img{
+        width: 30%;
+        margin: 10px 10px 0px 10px;
+      }
+    }
     .header-auths{
-      margin: 0px auto;
-      width: 264px;
+      width: 100%;
+      margin-top: 20px;
+
     }
     .btn-primarys {
       color: $white;
@@ -67,27 +77,30 @@ body {
       color: #6C6C6C;
       border: 1px solid #6C6C6C;
       margin-right: 20px;
+      margin-left: 12px;
     }
     .menu-close{
-      position: absolute;
-      bottom: 10px;
-      margin: 0px auto;
-      left: 50%;
       font-size: 34px;
       color: $secondary_color;
+      margin-right: 10px;
+      margin-top: 10px;
     }
     .menu-mobiles{
+      margin: 0;
+      padding: 0;
       .menu-item-mobile{
-        margin-top: 24px;
-        text-align: center;
+        margin: 24px 0px;
         list-style: none;
         .menu-link-mobile{
           text-decoration: none;
-          list-style: none;
           font-size: 20px;
           font-family: $font-secondary;
           font-weight: 600;
           color: $gray-dark_color;
+          margin-left: 12px;
+        }
+        .menu-link-mobile:hover{
+          color: $secondary_color;
         }
       }
     }
@@ -198,7 +211,7 @@ body {
   .btn--primary {
     color: $white;
     background-color: $secondary_color;
-    padding: 18px 35px;
+    padding: 18px 25px;
     margin-right: 50px;
   }
   .header-actions {
@@ -206,6 +219,7 @@ body {
     display: flex;
     align-items: center;
     cursor: pointer;
+    width: 100%;
     &-watch{
       color: black;
     }

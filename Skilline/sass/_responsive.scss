@@ -244,6 +244,9 @@
             margin-bottom: 70px;
             padding: 0px;
         }
+        &-text{
+            font-size: 14px;
+        }
     }
     /*----------========== ABOUT ==========----------*/
     .about{
@@ -429,7 +432,7 @@
             &-arrow{
                 width: 40px;
                 height: 40px;
-                margin-left: 75%;
+                margin-left: 92%;
                 &-icon img{
                     width: 12px;
                 }
