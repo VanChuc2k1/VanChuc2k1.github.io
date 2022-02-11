@@ -207,7 +207,7 @@
     /*----------========== COMPANY ==========----------*/
     .company{
         &-heading{
-            font-size: 20px;
+            font-size: 18px;
         }
         &-logos{
             display: grid;
@@ -365,17 +365,19 @@
             margin-bottom: 40px;
             grid-template-columns: repeat(2, 1fr);
             &-onedrive{
-                width: 140px;
+                width: 120px;
             }
             &-dropbox{
-                width: 82px;
+                width: 62px;
+                margin-left: 50px;
             }
             &-google-drive{
-                width: 88px;
+                width: 68px;
 
             }
             &-team{
-                width: 101px;
+                width: 81px;
+                margin-left: 50px;
             }
         }
         &-caption{
@@ -404,8 +406,8 @@
             margin-bottom: 40px;
             width: 100%;
         }
-        &-content-btn{
-            width: 70%;
+        &-content-btns{
+            width: 81%;
             height: 50px;
             margin-top: 0px;
         }
@@ -420,11 +422,12 @@
                 font-size: 10px;
             }
             &-item{
-                width: 240px;
+                width: 90%;
                 height: auto;
                 padding: 10px 20px;
-                margin-left: 65px;
                 background-color: $white;
+                transform: translateY(-100px);
+                margin: 20px 0px 40px 0px;
                 .testimonal-brand-text{
                     font-size: 10px;
                 }
@@ -437,6 +440,13 @@
                     width: 12px;
                 }
             }
+        }
+        &-content-arrow{
+            padding: 18px;
+        }
+        &-content-btns:hover &-content-arrow{
+            transform: translateX(-514%);
+            transition: all 1.5s ease;
         }
         .evaluate .evaluate-star img{
             width: 10px;
@@ -521,6 +531,26 @@
             &-design{
                 font-size: 16px;
             }
+        }
+    }
+}
+@media only screen and (max-width:321px){
+    .btn-primary{
+        margin-left: 12px;
+        margin-top: 10px;
+    }
+    .footer-skilline-email{
+        flex-direction: column;
+        .btn-subscribe{
+            margin: 10px auto 0px auto;
+        }
+    }
+    .footer-skilline-logo{
+        img{
+            width: 100px;
+        }
+        .footer-skilline-heading{
+            font-size: 14px;
         }
     }
 }

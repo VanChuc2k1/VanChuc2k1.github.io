@@ -19,6 +19,7 @@ body {
   max-width: 1520px;
   width: 100%;
   margin: 0px auto;
+  padding: 0;
   /*----------==================== HEADER-MAIN ====================----------*/
 }
 .wrapper .input {
@@ -238,6 +239,9 @@ body {
   width: 15px;
 }
 
+.company {
+  width: 100%;
+}
 .company-heading {
   margin-top: 100px;
   text-align: center;
@@ -258,7 +262,7 @@ body {
   margin-bottom: 150px;
 }
 .company-logo img {
-  width: 138px;
+  width: 100%;
 }
 
 .introduce-header {
@@ -701,7 +705,7 @@ body {
   font-size: 16px;
 }
 .testimonal-brand-item {
-  width: 460px;
+  width: 100%;
   height: 240px;
   box-shadow: 2px 4px 60px rgba(41, 44, 124, 0.1);
   border-radius: 20px;
@@ -760,7 +764,7 @@ body {
   width: 100%;
 }
 .testimonal-content-btns {
-  width: 320px;
+  width: 51.5%;
   height: 60px;
   border: 1px solid #f48c06;
   display: flex;
@@ -1270,7 +1274,7 @@ body {
 
   /*----------========== COMPANY ==========----------*/
   .company-heading {
-    font-size: 20px;
+    font-size: 18px;
   }
   .company-logos {
     display: grid;
@@ -1438,16 +1442,18 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
   .integrations-brand-onedrive {
-    width: 140px;
+    width: 120px;
   }
   .integrations-brand-dropbox {
-    width: 82px;
+    width: 62px;
+    margin-left: 50px;
   }
   .integrations-brand-google-drive {
-    width: 88px;
+    width: 68px;
   }
   .integrations-brand-team {
-    width: 101px;
+    width: 81px;
+    margin-left: 50px;
   }
   .integrations-caption hr {
     width: 50px;
@@ -1474,8 +1480,8 @@ body {
     margin-bottom: 40px;
     width: 100%;
   }
-  .testimonal-content-btn {
-    width: 70%;
+  .testimonal-content-btns {
+    width: 81%;
     height: 50px;
     margin-top: 0px;
   }
@@ -1491,11 +1497,12 @@ body {
     font-size: 10px;
   }
   .testimonal-brand-item {
-    width: 240px;
+    width: 90%;
     height: auto;
     padding: 10px 20px;
-    margin-left: 65px;
     background-color: #fff;
+    transform: translateY(-100px);
+    margin: 20px 0px 40px 0px;
   }
   .testimonal-brand-item .testimonal-brand-text {
     font-size: 10px;
@@ -1507,6 +1514,13 @@ body {
   }
   .testimonal-brand-arrow-icon img {
     width: 12px;
+  }
+  .testimonal-content-arrow {
+    padding: 18px;
+  }
+  .testimonal-content-btns:hover .testimonal-content-arrow {
+    transform: translateX(-514%);
+    transition: all 1.5s ease;
   }
   .testimonal .evaluate .evaluate-star img {
     width: 10px;
@@ -1591,6 +1605,26 @@ body {
   }
   .footer-skilline-design {
     font-size: 16px;
+  }
+}
+@media only screen and (max-width: 321px) {
+  .btn-primary {
+    margin-left: 12px;
+    margin-top: 10px;
+  }
+
+  .footer-skilline-email {
+    flex-direction: column;
+  }
+  .footer-skilline-email .btn-subscribe {
+    margin: 10px auto 0px auto;
+  }
+
+  .footer-skilline-logo img {
+    width: 100px;
+  }
+  .footer-skilline-logo .footer-skilline-heading {
+    font-size: 14px;
   }
 }
 
