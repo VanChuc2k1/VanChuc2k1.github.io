@@ -781,11 +781,7 @@ body {
   border-radius: 50%;
 }
 .testimonal-content-btns:hover .testimonal-content-arrow {
-  transform: translateX(-434%);
-  transition: all 1.5s ease;
-}
-.testimonal-content-btns:hover .btn-testimonal {
-  transform: translateX(34%);
+  margin-right: 8%;
   transition: all 1.5s ease;
 }
 .testimonal .global-heading {
@@ -1517,10 +1513,6 @@ body {
   }
   .testimonal-content-arrow {
     padding: 18px;
-  }
-  .testimonal-content-btns:hover .testimonal-content-arrow {
-    transform: translateX(-514%);
-    transition: all 1.5s ease;
   }
   .testimonal .evaluate .evaluate-star img {
     width: 10px;

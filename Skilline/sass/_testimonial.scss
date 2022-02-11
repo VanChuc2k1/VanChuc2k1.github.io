@@ -92,11 +92,7 @@
         border-radius: 50%;
     }
     &-content-btns:hover &-content-arrow{
-        transform: translateX(-434%);
-        transition: all 1.5s ease;
-    }
-    &-content-btns:hover .btn-testimonal{
-        transform: translateX(34%);
+        margin-right: 8%;
         transition: all 1.5s ease;
     }
     .global-heading{
