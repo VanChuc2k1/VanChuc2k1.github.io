@@ -1,0 +1,82 @@
+$red-pink:#E41E66;
+$pink-orange:#F4023E;
+$light-pink:pink;
+$white:white;
+$black:black;
+$gray:#5D606B;
+$black-text:#343846;
+$font-primary:"roboto", sans-serif;
+$gray-white: #F0F2F5;
+.aim-heading{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: $font-primary;
+    color: $black-text;
+    list-style: 1.5;
+    font-style: normal;
+}
+.aim-text{
+    font-size: 14px;
+    font-family: $font-primary;
+    color: $black-text;
+    list-style: 18px;
+    font-weight: 300;
+    font-style: normal;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.d-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:0px 20px;
+}
+    .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: linear-gradient(135deg, #E32068 0%, #F5003B 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 1;
+    z-index: 5555;
+    transition: all 0.2s linear;
+    }
+    .slick-prev {
+    left: -70px;
+    }
+    .slick-next {
+    right: -70px;
+    }
+    .slick-dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 0 20px;
+    }
+    .slick-dots button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 100rem;
+    background-color: rgba(248, 185, 185, 0.797);
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+    transform: translateY(50px);
+    }
+    .slick-dots .slick-active button {
+        background: linear-gradient(135deg, #E32068 0%, #F5003B 100%);
+    }
