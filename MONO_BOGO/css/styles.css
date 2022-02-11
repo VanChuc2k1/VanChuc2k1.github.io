@@ -377,9 +377,26 @@ img,video{
   position: absolute;
   z-index: 1;
 }
+@media (max-width:1200px){
+  .new #col1{
+    width: 100%;
+  }
+  .new #col2{
+    width: 100%;
+  }
+  .new #col2 .col-image{
+    width: 50%;
+  }
+  
+}
 @media (max-width:966px){
   .header .content h1{
     font-size: 5rem;
+  }
+  .new #col2 .col-3 .col-image{
+    width: 100%;
+    margin:none;
+    margin-left: 0px;
   }
 }
 @media (max-width:768px){
