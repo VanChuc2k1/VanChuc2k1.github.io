@@ -1,0 +1,997 @@
+@media  (max-width: 1225px){
+    .menu-item{
+        display: none;
+    }
+    
+}
+/* Mobile: width < 740px */
+@media only screen and (min-width:360px) and (max-width:46.11875em){  
+    .Aimacademy .header{
+        background-position: center;
+        width: 100%;
+        height: 378px;
+        &-top{
+            padding: 0px 15px;
+            width: 90%;
+            .menu{
+                width: 56%;
+            }
+            .header-logo{ 
+                width: 37px;
+                height: 28px;
+                margin-right: 22px;
+            }
+            .menu-input{
+                width: 40%;
+                input{
+                    border-radius: 10px;
+                    background: #EFEFEF;
+                    height: 34px;
+                    width: 75%;
+                    outline: none;
+                    border: none;
+                    padding: 0px 10px;
+                }
+            }
+            .icon-menu{
+                display: block;
+                margin-right: 20px;
+            }
+            .icon-menu:hover{
+                color: $pink-orange;
+            }
+        }
+        &-main{
+            width: 100%;
+ 
+            &-content{
+                width: 100%;
+            }
+            .header-heading{
+                text-align: center;
+                font-size: 34px;
+                margin: 26px 0px 0px 0px;
+            }
+            .menu-main-btn{
+                flex-direction: column;
+                width: 100%;
+                .menu-btn-signin,.menu-btn-enterprise{
+                    margin-bottom: 20px;
+                    width: 27%;
+                    font-weight: none;
+                    margin: 0px auto 20px auto;
+                    text-align: center;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .btn{
+        display: none;
+    }
+    .header-main-img{
+        display: none;
+    }
+    .header-main-content{
+        .header-heading{
+            font-size: 36px;
+        }
+        .menu-btn-signin,.menu-btn-enterprise{
+            padding: none;
+        }
+    }
+    .header-top .menu .menu-input{
+        width: 204px;
+        height: 36px;
+        margin-right: 12px;
+    }
+    /*----------========== NEW-LESSON ==========----------*/
+    .main{
+        width: 100%;
+        .new-lesson{
+            width: 100%;
+            margin-bottom: 40px;
+            &-item{
+                box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);
+            }
+            &-header{
+                width: 95%;
+                &-heading{
+                    margin: 20px 0px;
+                    font-size: 20px;
+                }
+                .btn-see-more{
+                    margin-right: 5px;
+                }
+                .btn-see-more .see-more{
+                    font-size: 12px;
+                }
+            }
+            .slick-initialized .slick-slide {
+                margin: 0 5px;
+                }
+            &-slide-item{
+                width:95%;
+            }
+            .winning{
+                margin-bottom: 34px;
+            }
+            .new-lesson-item-heading{
+                font-size: 14px;
+                margin-top: 5px;
+            }
+            .new-lesson-item-content{
+                .item-content,.item-contents{
+                    font-size: 8px;
+                    font-weight: 300;
+                }
+                .item-content{
+                    width:66%;
+                }
+                .item-contents{
+                    width:52%;
+                }
+            }
+            .new-lesson-item-icon-calendar img,.new-lesson-item-icon-user img{
+                width:7px;
+            }
+            .new-lesson-item-text{
+                font-size: 10px;
+                margin-top: 1px;
+            }
+            .new-lesson-item-icon-time,.new-lesson-item-icon-users{
+                font-size: 8px;
+            }
+            .btn-cart{
+                display: none;
+            }
+            .fa-star{
+                font-size: 7px;
+            }
+            .byding-btn{
+                display: none;
+            }
+            .byding{
+                height: 16px;
+            }
+            .price{
+                font-size:16px;
+            }
+            .slick-dots button{
+                width: 8px;
+                height: 12px;
+            }
+        }
+    }
+    /*----------========== ITEM-PRODUCT ==========----------*/
+    .main{
+        width:100%;
+        .items-product{
+            width:100%;
+            display: none;
+        }
+    }
+    /*----------========== LESSONS-WATCHED ==========----------*/
+    .main{
+        width: 100%;
+        .lessons-watched{
+            width: 100%;
+            margin-bottom: 40px;
+            &-item{
+                box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);
+            }
+            &-header{
+                width: 95%;
+                &-heading{
+                    margin: 20px 0px;
+                    font-size: 20px;
+                }
+                .btn-see-more{
+                    margin-right: 5px;
+                }
+                .btn-see-more .see-more{
+                    font-size: 12px;
+                }
+            }
+            .slick-initialized .slick-slide {
+                margin: 0 5px;
+                }
+            &-slide-item{
+                width:95%;
+            }
+            .winning{
+                margin-bottom: 34px;
+            }
+            .lessons-watched-item-heading{
+                font-size: 14px;
+                margin-top: 5px;
+            }
+            .lessons-watched-item-content{
+                .item-content,.item-contents{
+                    font-size: 8px;
+                    font-weight: 300;
+                }
+                .item-content{
+                    width:66%;
+                }
+                .item-contents{
+                    width:52%;
+                }
+            }
+            .lessons-watched-item-icon-calendar img,.lessons-watched-item-icon-user img{
+                width:7px;
+            }
+            .lessons-watched-item-text{
+                font-size: 10px;
+                margin-top: 1px;
+            }
+            .lessons-watched-item-icon-time,.lessons-watched-item-icon-users{
+                font-size: 8px;
+            }
+            .btn-cart{
+                display: none;
+            }
+            .fa-star{
+                font-size: 7px;
+            }
+            .byding-btn{
+                display: none;
+            }
+            .byding{
+                height: 16px;
+            }
+            .price{
+                font-size:16px;
+            }
+            .slick-dots button{
+                width: 1px;
+                height: 12px;
+            }
+        
+        }
+    }
+    /*----------========== ADVANTAGES-ITEM ==========----------*/
+    .advantages{
+        width: 100%;
+        &-heading{
+            font-size: 24px;
+            width: 80%;
+            margin: 0px auto;
+            padding: 20px 0px;
+    
+        }
+        &-item {
+            grid-template-columns: repeat(1, 1fr);
+            width: 95%;
+            &-content{
+                display: flex;
+                width: 90%;
+                margin-bottom: 20px;
+                height: 17px;
+                padding: none;
+                .advantages-item-text{
+                    font-size: 12px;
+                    text-align: left;
+                }
+                .advantages-item-icon{
+                    margin-right: 20px;
+                    img{
+                        width: 25px;
+                    }
+                }
+                .icon-Interactive{
+                    width: 70px;
+                    height: 50px;
+                }
+                .icon-accumulation{
+                    width: 115px;
+                    height: 50px;
+                }
+                .icon-route{
+                    width: 85px;
+                    height: 50px;
+                }
+                .icon-Interactive .img-interactive{
+                    width: 25px;
+                }
+            }
+            &-heading{
+                display: none;
+                padding: none;
+            }
+        }
+    }
+    /*----------========== ROUTE-ITEM ==========----------*/
+    .route{
+        background: $white;
+        &-item{
+            flex-direction: column;
+            width: 100%;
+            &-image{
+                width: 95%;
+                margin: 0px auto;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        &-heading{
+            font-size: 24px;
+            width: 73%;
+            margin: 50px auto 0px auto;
+            text-align: center;
+            font-weight: 600;
+        }
+        &-content{
+            width: 95%;
+            p{
+                font-size: 14px;
+                text-align: center;
+            }
+        }
+        .btn-route{
+            margin: 0px auto;
+            width: 92%;
+        }
+    }
+    /*----------========== ACCUMMULATED-POINTS ==========----------*/
+    .accumulated-points{
+        .accumulated-points-item{
+            flex-direction: column-reverse;
+            width: 100%;
+            .accumulated-points-heading{
+                font-size: 24px;
+                text-align: center;
+            }
+            .accumulated-points-desc{
+                width: 85%;
+                font-size: 14px;
+                margin: 0px auto 10px auto;
+                text-align: center;
+            }
+            .btn-accumulated-points{
+                margin: 0px auto;
+                margin-bottom: 40px;
+                width: 87%;
+            }
+        }
+        .accumulated-points-item-image{
+            width: 95%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    /*----------========== ENTERPRISE ==========----------*/
+    .enterprise{
+        &-item{
+            flex-direction: column;
+            width: 100%;
+            &-image{
+                width: 70%;
+                margin: 0px auto;
+                img{
+                    width: 100%;
+                }
+            }
+            .enterprise-heading{
+                font-size: 24px;
+                text-align: center;
+            }
+            .enterprise-desc{
+                font-size: 14px;
+                width: 85%;
+                margin: 0px auto 10px auto;
+                text-align: center;
+            }
+            .btn-enterprise{
+                margin: 0px auto;
+                width: 87%;
+            }
+        }
+    }
+    /*----------========== MEMBER ==========----------*/
+    .member{
+        width: 100%;
+        &-icon{
+            display: none;
+        }
+        &-list{
+            width: 95%;
+            padding: 0;
+    
+            .member-information{
+                width: 100%;
+                height: 100%;
+                margin: 0px auto;
+                padding: 5px;
+                &-item-image{
+                    width: 30%;
+                    height: 154px;
+                    padding: 0;
+                    margin-right: 5px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 7px;
+                    }
+                }
+                &-content{
+                    width: 80%;
+                    height: 100%;
+                    
+                }
+                &-desc{
+                    font-size: 10px;
+                }
+                &-text{
+                    font-size: 12px;
+                    margin-top: -20px;
+                    border: 1px solid;
+                }
+                &-heading{
+                    font-size: 14px;
+                    transform: translateY(-10px);
+                }
+            }
+        }
+    }
+    /*----------========== CUSTOMERS-PARTERS ==========----------*/
+    .customers-partners{
+        width: 100%;
+        background: $white;
+        .customers-partner{
+            width: 95%;
+            .customers-partners-heading{
+                font-size: 24px;
+            }
+            .partner{
+                width: 100%;
+                img{
+                    width: 20%;
+                }
+            }
+            .customers-partner-info{
+                width: 100%;
+                &-desc{
+                    font-size: 12px;
+                }
+            }
+            .partners{
+                width: 100%;
+                img{
+                    width: 20%;
+                }
+            }
+        }
+    }
+    /*----------========== REGISTRATION ==========----------*/
+    .registration{
+        width: 100%;
+        flex-direction: column-reverse;
+        &-image{
+            width: 85%;
+            margin: -20px auto 0px auto;
+            img{
+                width: 100%;
+            }
+        }
+        &-heading{
+            font-size: 24px;
+            text-align: center;
+        }
+        &-content{
+            width: 95%;
+            input{
+                width: 92%;
+            }
+            .text{
+                font-size: 14px;
+            }
+            .btn-registration{
+                margin: 0px auto;
+                width: 92%;
+            }
+            select{
+                width: 100%;
+            }
+        }
+    }
+    /*----------========== POLICY ==========----------*/
+    .policy .policys{
+        width: 95%;
+        &-heading{
+            font-size: 20px;
+        }
+        &-text{
+            font-size: 12px;
+        }
+    }
+    /*----------========== FOOTER ==========----------*/
+    .footer{
+        &-information{
+            width: 95%;
+            flex-direction: column;
+            &-establish{
+                width: 100%;
+                &-desc{
+                    font-size: 14px;
+                }
+            }
+            &-item,&-link{
+                margin-top: 10px;
+                width: 100%;
+                font-size: 14px;
+            }
+            &-contacts{
+                margin-top: 10px;
+                &-heading{
+                    font-size: 20px;
+                }
+                .content{
+                    font-size: 14px;
+                }
+            }
+        }
+        &-bottom{
+            font-size: 12px;
+            width: 300px;
+            margin: 0px auto;
+        }
+        hr{
+            width: 95%;
+        }
+        
+    }
+}
+/* Table: width >= 740px and width < 1024px*/
+@media only screen and (min-width:46.125em) and (max-width:63.9375em){
+    .Aimacademy .header{
+        background-position: center;
+        width: 100%;
+        height: 520px;
+    }
+    .Aimacademy .header .header-top{
+        padding: 0px 30px;
+        width: 85%;
+        .header-logo{ 
+            width: 57px;
+            height: 30px;
+            margin-right: 42px;
+        }
+        .menu-input{
+            width: 100%;
+            margin-right: 30px;
+        }
+        .icon-menu{
+            display: block;
+            margin-right: 20px;
+        }
+        .menu-btn{
+            width: 450px;
+        }
+    }
+    .header-main{
+        margin-left: 0;
+        &-content{
+            width: 100%;
+            margin: 0px auto;
+        }
+        .header-heading{
+            text-align: center;
+            width: 100%;
+            margin-top: -50px;
+        }
+        .menu-main-btn{
+            flex-direction: column;
+            .menu-btn-signin,.menu-btn-enterprise{
+                margin-bottom: 20px;
+                width: 40%;
+                font-weight: none;
+                margin: 0px auto 20px auto;
+                text-align: center;
+            }
+        }
+    }
+    .header-main-img{
+        display: none;
+    }
+    .header-main-content{
+        .header-heading{
+            font-size: 36px;
+        }
+        .menu-btn-signin,.menu-btn-enterprise{
+            padding: none;
+        }
+    }
+    .header-top .menu .menu-input{
+        width: 204px;
+        height: 36px;
+        margin-right: 12px;
+    }
+    /*----------========== NEW-LESSON ==========----------*/
+    .main{
+        .new-lesson{
+            &-header{
+                width: 85%;
+            }
+            .new-lesson-header-heading{
+                font-size: 30px;
+            }
+            .btn-see-more{
+                .see-more{
+                    font-size: 16px;
+                }
+                .fa-angle-right{
+                    font-size: 16px;
+                }
+            }
+            &-slide-item{
+                width: 85%;
+            }
+            .item-content{
+                width: 85%;
+            }
+            .item-contents{
+                width: 75%;
+            }
+            .slick-prev {
+                left: -40px;
+            }
+            .slick-next {
+                right: -40px;
+            }
+        }
+    }
+
+    .new-lesson-header .new-lesson-header-heading{
+        font-size: 20px;
+        margin-left: 10px;    
+    }
+    .new-lesson-header .btn-see-more .see-more{
+        font-size: 12px;
+    }
+    /*----------========== LESSONS-WATCHED ==========----------*/
+    .main{
+        .lessons-watched{
+            &-header{
+                width: 85%;
+            }
+            .lessons-watched-header-heading{
+                font-size: 30px;
+            }
+            .btn-see-more{
+                .see-more{
+                    font-size: 16px;
+                }
+                .fa-angle-right{
+                    font-size: 16px;
+                }
+            }
+            .btn-see-mores{
+                .see-more{
+                    font-size: 16px;
+                }
+            }
+            &-slide-item{
+                width: 85%;
+            }
+            .item-content{
+                width: 85%;
+            }
+            .item-contents{
+                width: 75%;
+            }
+            .slick-prev {
+                left: -40px;
+            }
+            .slick-next {
+                right: -40px;
+            }
+        }
+    }
+    .btn-see-more{
+        margin-right: 10px;
+    }
+    .lessons-watched-header .btn-see-more .see-more{
+        font-size: 12px;
+    }
+    .btn-see-mores{
+        margin-right: 10px;
+    }
+    .lessons-watched-header .btn-see-mores .see-more{
+        font-size: 12px;
+    }
+    /*----------========== ITEM-PRODUCT ==========----------*/
+    .main{
+        .items-product{
+            margin-top: 60px;
+            .items-products{
+                width: 85%;
+            }
+            .skill{
+                width: 85%;
+            }
+        }
+    }
+
+    /*----------========== ADVANTAGES-ITEM ==========----------*/
+    .advantages .advantages-heading{
+        font-size: 24px;
+        width: 85%;
+        margin: 0px auto;
+        padding: 20px 0px;
+    }
+    .advantages-item {
+        grid-template-columns: repeat(1, 1fr);
+        width: 85%;
+        margin: 0px auto;
+        &-content{
+            display: flex;
+            width: 90%;
+            margin-bottom: 20px;
+            height: 17px;
+            .advantages-item-text{
+                font-size: 16px;
+                text-align: left;
+                width: 80%;
+            }
+            .advantages-item-icon{
+                margin-right: 20px;
+                width: 15%;
+                img{
+                    width: 30px;
+                }
+            }
+            .icon-Interactive{
+                width: 73px;
+                height: 70px;
+                border-radius: 100%;
+            }
+            .icon-accumulation{
+                width: 75px;
+                height: 70px;
+            }
+            .icon-route{
+                width: 75px;
+                height: 70px;
+            }
+            .icon-route{
+                img{
+                    width: 35px;
+                    margin-top: 25px;
+                }
+            }
+            
+        }
+    }
+    .advantages-item-heading{
+        display: none;
+        padding: none;
+    }
+    /*----------========== ROUTE-ITEM ==========----------*/
+    .route{
+        background: $white;
+    }
+    .route-item{
+        flex-direction: column;
+        width: 100%;
+    }
+    .route-item .route-item-image{
+        width: 85%;
+        margin: 0px auto;
+    }
+    .route-item .route-item-image img{
+        width: 100%;
+    }
+    .route-content .route-heading{
+        font-size: 24px;
+        width: 548px;
+        margin: 50px auto 0px auto;
+        text-align: center;
+        font-weight: 600;
+    }
+    .route-content{
+        width: 85%;
+        p{
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+    .btn-route{
+        margin: 0px auto;
+    }
+    /*----------========== ACCUMMULATED-POINTS ==========----------*/
+    .accumulated-points{
+        .accumulated-points-item{
+            flex-direction: column-reverse;
+            width: 100%;
+            .accumulated-points-heading{
+                font-size: 24px;
+                text-align: center;
+            }
+            .accumulated-points-desc{
+                width: 85%;
+                font-size: 14px;
+                margin: 20px auto;
+                text-align: center;
+            }
+            .btn-accumulated-points{
+                margin: 0px auto;
+                margin-bottom: 40px;
+            }
+        }
+        .accumulated-points-item-image{
+            width: 85%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    /*----------========== ENTERPRISE ==========----------*/
+    .enterprise{
+        &-item{
+            flex-direction: column;
+            width: 85%;
+            &-image{
+                width: 100%;
+                margin: 0px auto;
+                img{
+                    width: 100%;
+                }
+            }
+            .enterprise-heading{
+                font-size: 24px;
+                text-align: center;
+            }
+            .enterprise-desc{
+                font-size: 14px;
+                width: 100%;
+                text-align: center;
+            }
+            .btn-enterprise{
+                margin: 0px auto;
+            }
+        }
+    }
+    /*----------========== MEMBER ==========----------*/
+    .member{
+        width: 100%;
+        &-icon{
+            display: none;
+        }
+        &-list{
+            width: 85%;
+        }
+        &-information{
+            width: 100%;
+            margin: 0px auto;
+            padding: 10px;
+            &-item-image{
+                width: 45%;
+                height: 136px;
+                
+                padding: 0px 0px 0px 20px;
+                margin-right: 20px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 7px;
+                }
+            }
+            &-desc{
+                font-size: 10px;
+            }
+            &-heading{
+                font-size: 14px;
+            }
+            .btn-member-information{
+                font-size: 12px;
+                margin-top: -10px;
+            }
+        }
+    }
+    /*----------========== CUSTOMERS-PARTERS ==========----------*/
+    .customers-partners{
+        width: 100%;
+        .customers-partner{
+            width: 85%;
+            .customers-partners-heading{
+                font-size: 24px;
+            }
+            .partner{
+                width: 100%;
+                img{
+                    width: 20%;
+                }
+            }
+            .customers-partner-info{
+                width: 100%;
+                &-desc{
+                    font-size: 12px;
+                }
+            }
+            .partners{
+                width: 100%;
+                img{
+                    width: 20%;
+                }
+            }
+        }
+    }
+    /*----------========== REGISTRATION ==========----------*/
+    .registration{
+        width: 100%;
+        flex-direction: column-reverse;
+        &-image{
+            width: 85%;
+            margin: 0px auto;
+            img{
+                width: 100%;
+            }
+        }
+        &-content{
+            width: 85%;
+            &-heading{
+                font-size: 24px;
+            }
+            .text{
+                font-size: 14px;
+            }
+            .btn-registration{
+                margin: 0px auto;
+            }
+            select{
+                width: 97%;
+            }
+        }
+    }
+    /*----------========== POLICY ==========----------*/
+    .policy .policys{
+        width: 85%;
+        &-heading{
+            font-size: 20px;
+        }
+        &-text{
+            font-size: 12px;
+        }
+    }
+    /*----------========== FOOTER ==========----------*/
+    .footer{
+        &-information{
+            width: 87%;
+            flex-direction: column;
+            &-establish{
+                width: 100%;
+                &-desc{
+                    font-size: 14px;
+                }
+            }
+            &-item,&-link{
+                margin-top: 10px;
+                width: 100%;
+                font-size: 14px;
+            }
+            &-contacts{
+                margin-top: 10px;
+                &-heading{
+                    font-size: 20px;
+                }
+                .content{
+                    font-size: 14px;
+                }
+            }
+        }
+        &-bottom{
+            font-size: 12px;
+            width: 300px;
+            margin: 0px auto;
+        }
+        hr{
+            width: 87%;
+        }
+        
+    }
+
+}
