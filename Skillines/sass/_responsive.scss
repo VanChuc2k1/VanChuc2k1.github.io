@@ -1,0 +1,553 @@
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25rem) and (max-width:63.9375rem){
+    .menu-item{
+        display: none;
+    }
+    .wrapper{
+        .header{
+            background: $blue;
+            height: 800px;
+            &-top .header-auth{
+                width: 306px;
+                .fa-bars{
+                    display: block;
+                    margin-left: 20px;
+                    padding-top: 9px;
+                    font-size: 30px;
+                    color: $secondary_color;
+                }
+            }
+        }
+    } 
+    .header-container{
+        .header-main{
+            flex-direction: column;
+            grid-gap: none;
+            .header-content{
+                width: 80%;
+                margin: 100px auto 0px auto;
+            }
+            .header-image{
+                display: none;
+            }
+        }
+    }
+    /*----------========== COMPANY ==========----------*/
+    .company-logos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        .company-logo{
+            margin-bottom: 20px;
+        }
+    }
+    /*----------========== INTRODUCE ==========----------*/
+    .introduce-list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .introduce-item{
+        width: 89%;
+        margin-bottom: 70px;
+        
+    }
+    .introduce .introduce-list .introduce-item .introduce-text{
+        margin-bottom: 100px;
+    }
+    /*----------========== ABOUT ==========----------*/
+    .about{
+        &-header{
+            padding: 0px 0px;
+        }
+        &-list{
+            grid-template-columns: 1fr;
+            &-item{
+                margin-bottom: 40px;
+            }
+        }
+    }
+    /*----------========== YOU-CAN ==========----------*/
+    .youcan{
+        grid-template-columns: 1fr;
+        &-content{
+            margin-bottom: 50px;
+        }
+    }
+    /*----------========== FEATURE ==========----------*/
+    .feature{
+        padding: 0;
+    }
+    .features .features-section{
+        grid-template-columns: 1fr;
+    }
+    .features-image{
+        margin-bottom: 40px;
+    }
+    /*----------========== TEACHERS ==========----------*/
+    .feature .teachers{
+        grid-template-columns: 1fr;
+        &-content{
+            margin-bottom: 40px;
+        }
+        .global-heading{
+            margin-top: 0px;
+        }
+    }
+    /*----------========== QUIZZES ==========----------*/
+    .feature .quizzes{
+        grid-template-columns: 1fr;
+        &-image{
+            margin-bottom: 40px;
+        }
+        .global-heading{
+            margin-top: 0px;
+        }
+    }
+    /*----------========== MANAGEMENT ==========----------*/
+    .feature .management{
+        grid-template-columns: 1fr;
+        &-image{
+            margin-bottom: 40px;
+        }
+        .global-heading{
+            margin-top: 0px;
+        }
+    }
+    /*----------========== MANAGEMENT ==========----------*/
+    .feature .discussions{
+        grid-template-columns: 1fr;
+        &-image{
+            margin-bottom: 40px;
+        }
+        .global-heading{
+            margin-top: 0px;
+        }
+    }
+    /*----------========== INTEGRATIONS ==========----------*/
+    .integrations{
+        grid-template-columns: 1fr;
+        &-brand{
+            margin-bottom: 40px;
+        }
+    }
+    /*----------========== TESTIMONIAL ==========----------*/
+    .testimonal{
+        grid-template-columns: 1fr;
+        &-content{
+            margin-bottom: 40px;
+        }
+    }
+    /*----------========== LASTEST ==========----------*/
+    .lastest .lastest-list{
+        flex-direction: column;
+        grid-gap:0px 0px;
+        .lastest-news{
+            padding: 0;
+            margin-bottom: 40px;
+        }
+    }
+
+}
+/* Mobile: width < 740px */
+@media only screen and (max-width:46.1875rem){
+    .header-top .header-top-logo{
+        width: 100px;
+    }
+    .header-auth .btn-white,.header-auth .btn-primary{
+        display: none;
+    }
+    .menu-item{
+        display: none;
+    }
+    .menu-item{
+        display: none;
+    }
+    .header-actions{
+        flex-direction: column;
+        .btn--primary{
+            margin: 0px auto;
+        }
+    }
+    .watch{
+        display: none;
+    }
+    .header-actions-watch{
+        display: none;
+    }
+    .wrapper .header{
+        background: $blue;
+        height: 600px;
+        &-top .header-auth{
+            .fa-bars{
+                display: block;
+                margin-left: 20px;
+                padding-top: 9px;
+                font-size: 30px;
+                color: $secondary_color;
+            }
+        }
+    }
+    .header-container{
+        .header-main{
+            flex-direction: column;
+            grid-gap: none;
+            .header-content{
+                width: 80%;
+                margin: 50px auto 0px auto;
+                .header-heading{
+                    font-size: 30px;
+                }
+                .header-desc{
+                    font-size: 17px;
+                }
+            }
+            .header-image{
+                display: none;
+            }
+        }
+    }
+    /*----------========== COMPANY ==========----------*/
+    .company{
+        &-heading{
+            font-size: 18px;
+        }
+        &-logos{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 90%;
+            .company-logo{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .global{
+        &-heading{
+            font-size: 26px;
+        }
+        &-desc{
+            font-size: 14px;
+        }
+    }
+    /*----------========== INTRODUCE ==========----------*/
+    .introduce{
+        &-list{
+            grid-template-columns: repeat(1, 1fr);
+            width: 90%;
+        }
+        &-title{
+            margin: 0;
+            font-size: 20px;
+        }
+        &-desc{
+            font-size: 14px;
+        }
+        &-item{
+            width: 100%;
+            margin-bottom: 70px;
+            padding: 0px;
+        }
+        &-text{
+            font-size: 14px;
+        }
+    }
+    /*----------========== ABOUT ==========----------*/
+    .about{
+        width: 90%;
+        &-header{
+            padding: 0px 0px;
+        }
+        &-text{
+            font-size: 14px;
+        }
+        &-list{
+            grid-template-columns: 1fr;
+            &-item{
+                margin-bottom: 40px;
+            }
+        }
+        .about-title{
+            font-size: 18px;
+        }
+        .btn--outline,.btn--student{
+            font-size: 14px;
+            padding: 10px 20px;
+        }
+    }
+    /*----------========== YOU-CAN ==========----------*/
+    .youcan{
+        width: 90%;
+        grid-template-columns: 1fr;
+        &-heading {
+            font-size: 22px;
+        }
+        &-desc {
+            font-size: 14px;
+        }
+        &-content{
+            margin-bottom: 50px;
+        }
+        &-more{
+            color:$gray;
+            font-size: 14px;
+        }
+    }
+    /*----------========== FEATURE ==========----------*/
+    .feature{
+        padding: 0;
+        &-section{
+            grid-template-columns: 1fr;
+        }
+        &-heading{
+            font-size: 26px;
+        }
+        &-desc{
+            font-size: 14px;
+        }
+        .btn-feature {
+            margin-top: 50px;
+            .see-more-feature{
+                font-size: 14px;
+            }
+        }
+    }
+    .features .features-section{
+        grid-template-columns: 1fr;
+    }
+    .features-image{
+        margin-bottom: 40px;
+    }
+    .features-item .features-text{
+        font-size: 14px;
+    }
+    /*----------========== TEACHERS ==========----------*/
+    .feature .teachers{
+        grid-template-columns: 1fr;
+        &-content{
+            margin-bottom: 40px;
+        }
+        .global-heading{
+            margin-top: 0px;
+        }
+    }
+    /*----------========== QUIZZES ==========----------*/
+    .feature .quizzes{
+        grid-template-columns: 1fr;
+        &-image{
+            margin-bottom: 40px;
+        }
+        .global-heading{
+            margin-top: 0px;
+        }
+    }
+    /*----------========== MANAGEMENT ==========----------*/
+    .feature .management{
+        grid-template-columns: 1fr;
+        &-image{
+            margin-bottom: 40px;
+        }
+        .global-heading{
+            margin-top: 0px;
+        }
+    }
+    /*----------========== MANAGEMENT ==========----------*/
+    .feature .discussions{
+        grid-template-columns: 1fr;
+        &-image{
+            margin-bottom: 40px;
+        }
+        .global-heading{
+            margin-top: 0px;
+        }
+    }
+    /*----------========== INTEGRATIONS ==========----------*/
+    .integrations{
+        width: 90%;
+        grid-template-columns: 1fr;
+        &-brand{
+            margin-bottom: 40px;
+            grid-template-columns: repeat(2, 1fr);
+            &-onedrive{
+                width: 120px;
+            }
+            &-dropbox{
+                width: 62px;
+                margin-left: 50px;
+            }
+            &-google-drive{
+                width: 68px;
+
+            }
+            &-team{
+                width: 81px;
+                margin-left: 50px;
+            }
+        }
+        &-caption{
+            hr{
+                width: 50px;
+                background-color: $primary_color;
+                margin-left: -1px;
+                size: 0.2px;
+            }
+            &-heading{
+                font-size: 16px;
+                color: $primary_color;
+                margin-left: -120px;
+            }
+        }
+        .btn-integrations{
+            font-size: 14px;
+            padding: 19px 35px;
+        }
+    }
+    /*----------========== TESTIMONIAL ==========----------*/
+    .testimonal{
+        width: 95%;
+        grid-template-columns: 1fr;
+        &-content{
+            margin-bottom: 40px;
+            width: 100%;
+        }
+        &-content-btns{
+            width: 81%;
+            height: 50px;
+            margin-top: 0px;
+        }
+        &-brand{
+            width: 85%;
+            img{
+                width: 100%;
+                border-radius: 20px;
+            }
+            &-text{
+                line-height: 2;
+                font-size: 10px;
+            }
+            &-item{
+                width: 90%;
+                height: auto;
+                padding: 10px 20px;
+                background-color: $white;
+                transform: translateY(-100px);
+                margin: 20px 0px 40px 0px;
+                .testimonal-brand-text{
+                    font-size: 10px;
+                }
+            }
+            &-arrow{
+                width: 40px;
+                height: 40px;
+                margin-left: 92%;
+                &-icon img{
+                    width: 12px;
+                }
+            }
+        }
+        &-content-arrow{
+            padding: 18px;
+        }
+
+        .evaluate .evaluate-star img{
+            width: 10px;
+        }
+        .evaluate-text{
+            font-size: 10px;
+        }
+        .testimonal-caption-heading{
+            font-size: 18px;
+            margin-left: -120px;
+        }
+        .global-heading{
+            font-size: 24px;
+        }
+        .global-desc{
+            font-size: 14px;
+        }
+        .btn-testimonal{
+            font-size: 14px;
+            margin-left: 15px;
+        }
+    }
+    /*----------========== LASTEST ==========----------*/
+    .lastest .lastest-list{
+        flex-direction: column;
+        grid-gap:0px 0px;
+        .lastest-news{
+            padding: 0;
+            margin-bottom: 40px;
+        }
+        .lastest-list-news-item{
+            flex-direction: column;
+            width: 100%;
+            margin: 0px auto;
+            .lastest-list-news-img{
+                width: 100%;
+            }
+        }
+        .lastest-list-news-content{
+            padding: 0;
+            margin-top: 20px;
+        }
+        .btn-news-img{
+            font-size: 8px;
+            padding: 5px 10px;
+            margin-top: 200px;
+            margin-left: -120px;
+        }
+        .btn-news-imgs{
+            margin-top: 200px;
+            font-size: 8px;
+        }
+        .news-heading{
+            font-size: 18px;
+        }
+        .news-text{
+            font-size: 14px;
+        }
+        .btn-read-more{
+            font-size: 14px;
+        }
+        .news-img-heading{
+            font-size: 14px;
+        }
+        .news-img-text{
+            font-size: 12px;
+        }
+    }
+    /*----------========== FOOTER ==========----------*/
+    .footer{
+        &-skilline{
+            width: 95%;
+            &-heading{
+                font-size: 20px;
+            }
+            &-subscribe{
+                font-size: 16px;
+            }
+            &-items-link{
+                font-size: 12px;
+            }
+            &-design{
+                font-size: 16px;
+            }
+        }
+    }
+}
+@media only screen and (max-width:321px){
+    .btn-primary{
+        margin-left: 12px;
+        margin-top: 10px;
+    }
+    .footer-skilline-email{
+        flex-direction: column;
+        .btn-subscribe{
+            margin: 10px auto 0px auto;
+        }
+    }
+    .footer-skilline-logo{
+        img{
+            width: 100px;
+        }
+        .footer-skilline-heading{
+            font-size: 14px;
+        }
+    }
+}

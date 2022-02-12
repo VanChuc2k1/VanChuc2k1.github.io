@@ -1,0 +1,17 @@
+.global{
+    &-heading{
+        color: $primary_color;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        line-height: 1.5;
+        span{
+            color: $secondary_color;
+        }
+    }
+    &-desc {
+        line-height: 1.8;
+        font-size: 18px;
+        color: $gray;
+    }
+}
