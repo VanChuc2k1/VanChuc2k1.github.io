@@ -1,0 +1,59 @@
+.youcan{
+    width: 85%;
+    margin: 0px auto;
+    padding: 0px 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:0px 80px;
+    &-color{
+        width: 50px;
+        height: 50px;background-color: #F4B767;
+        border-radius: 50%;
+        margin-top: 50px;
+        margin-left: -25px;
+    }
+    &-heading{
+        font-size: 26px;
+        color: $primary_color;
+        font-weight: 500;
+        line-height: 1.5;
+        margin-top: -40px;
+        span{
+            color: $secondary_color;
+        }
+    }
+    &-desc{
+        font-size: 18px;
+        line-height: 1.8;
+        color: $gray;
+        margin-bottom: 30px;
+    }
+    &-more{
+        color:$gray;
+        font-size: 18px;
+    }
+    &-content{
+        width: 100%;
+    }
+    &-image{
+        width: 100%;
+        position: relative;
+        img{
+            width: 100%;
+        }
+    }
+    .watchs{
+        width: 50px;
+        height: 50px;
+        background-color: $white;
+        border-radius: 50%;
+        margin-right: 10px;
+        position: absolute;
+        top:45%;
+        left: 45%;
+        &-icon img{
+            width: 18px;
+            margin-top: 10px;
+        }
+    } 
+}

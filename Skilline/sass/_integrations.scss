@@ -1,0 +1,59 @@
+.integrations{
+    width: 78%;
+    margin:140px auto 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:0px 50px;
+    &-brand{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        margin-bottom: 40px;
+        &-onedrive{
+            width: 200px;
+        }
+        &-dropbox{
+            width: 102px;
+            margin-left: 70px;
+        }
+        &-google-drive{
+            width: 118px;
+            margin-left: 70px;
+            margin-top: 50px;
+        }
+        &-team{
+            width: 131px;
+            margin-left: 70px;
+        }
+    }
+    &-content{
+        width: 100%;
+    }
+    &-caption{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:0px 10px;
+        hr{
+            width: 50px;
+            background-color: $primary_color;
+            margin-left: -1px;
+            size: 0.2px;
+        }
+        &-heading{
+            font-size: 20px;
+            color: $primary_color;
+            margin-left: -210px;
+        }
+    }
+    .global-heading{
+        text-align: left;
+    }
+    .btn-integrations{
+        color: $secondary_color;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 19px 35px;
+        border: 1px solid $secondary_color;
+        border-radius: 70px;
+    }
+}

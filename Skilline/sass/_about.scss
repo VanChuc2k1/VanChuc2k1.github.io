@@ -1,0 +1,52 @@
+.about{
+    width: 75%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 130px;
+    &-header{
+        padding: 0 100px;
+    }
+    &-text{
+        font-size: 18px;
+        line-height: 1.8;
+        color: $gray;
+        margin-bottom: 70px;
+    }
+    &-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0px 79px;
+        &-item {
+            position: relative;
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    &-title{
+        font-size: 22px;
+        font-weight: 600;
+        color: $white;
+        
+    }
+    &-content{
+        position: absolute;
+        left: 25%;
+        top:30%;
+    }
+    .btn--outline{
+        color: $white;
+        font-size: 18px;  
+        padding: 24px 35px;
+        border: 1px solid $white;
+    }
+    .btn--student{
+        color: $white;
+        font-size: 18px;  
+        padding: 24px 35px;
+        background-color: $blue;
+    }
+}
